@@ -41,7 +41,13 @@ sudo apt install python3-tk -y
 ## Installation
 
 1. Save `ssh_guard.py` to a directory of your choice.
-2. Make sure SSH server is installed and running (if you want to test locally):
+2. Give permission by using following command:
+
+```bash
+chmod +x ssh_guard.py
+```
+
+3. Make sure SSH server is installed and running (if you want to test locally):
 
 ```bash
 sudo systemctl start ssh
